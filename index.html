@@ -1,12 +1,13 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
  <head>
     <title>Andri-Tech Műszertechnikai kft</title>
     <meta name="viewport" content="width=device-width initial-scale=1">  
-     <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Playfair+Display|Quicksand" rel="stylesheet"> 
-   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
-     <script src="main.js"></script>
+     <link rel="stylesheet" type="text/css" href="/css/main.css">
+     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Playfair+Display|Quicksand" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+     
  </head>
  <body>
  
@@ -15,6 +16,9 @@
              <span class="since">Since 1993</span>
         </div>
         <nav id="nav-bar" class="navigation">
+            <a class="nav-link" href="english.html"><img src="img/english.png"></a>
+            <a class="nav-link" href="german.html"><img src="img/deutsch.png"></a>
+            <a class="nav-link" href="index.html"><img src="img/magyar.png"></a>
           <a class="nav-link" href="#contact">Elérhetőségek</a>
           <a class="nav-link" href="#references">Referenciák</a>
           <a class="nav-link" href="#gallery">Galéria</a>
@@ -23,10 +27,11 @@
           <a class="nav-link" href="#profile">Főbb profiljaink</a>
             <a class="nav-link" href="#introduction">Bemutatkozás</a>
             
+            
         </nav>      
     </header>
      <main>
-       <div class="image"><img alt="Andri-Tech kft" src=""></div>
+       <div class="image"><img alt="Andri-Tech kft" src="img/03.jpg"></div>
      <section id="introduction">
       <div class="first"><h2 class='intro'>Bemutatkozás</h2></div>
       <div class="p-f"><p class="content">Cégünk egy 1993 óta működő családi vállalkozásból alakult. Kezdetben kábel konfekcionálást és minőségellenőrzést végeztünk, majd az idők folyamán szükségessé vált létszámunk növelése és a vállakozási formánk indítása. 2005-ben megalakítottuk az Andri-Tech Kft-t.</p></div>
@@ -74,107 +79,29 @@
      </section>
          <section id="gallery">
              <div class="fifth"><h2 class="intro">Galéria</h2> </div>          <!-- Container for the image gallery -->
-<div class="container">
-
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 10</div>
-      <img src="14.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 10</div>
-      <img src="13.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 10</div>
-      <img src="12.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">4 / 10</div>
-      <img src="11.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 10</div>
-      <img src="10.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 10</div>
-      <img src="09.jpg" style="width:100%">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">7 / 10</div>
-      <img src="07.jpg" style="width:100%">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">8 / 10</div>
-      <img src="06.jpg" style="width:100%">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">9 / 10</div>
-      <img src="05.jpg" style="width:100%">
-  </div>
-  
-  <div class="mySlides">
-    <div class="numbertext">10 / 10</div>
-      <img src="04.jpg" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="14-s72x72.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="13-s72x72.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="12-s72x72.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="11-s72x72.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="10-s72x72.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="09-s72x72.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-          <div class="column">
-      <img class="demo cursor" src="07-s72x72.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="06-s72x72.jpg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="05-s72x72.jpg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="04-s72x72.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
-    </div>
-  </div>
-</div>        
+            <div class="container">
+             <a href="img/04.jpg" data-lightbox="my-gallery"><img src="img/04-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/05.jpg" data-lightbox="my-gallery"><img src="img/05-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/06.jpg" data-lightbox="my-gallery"><img src="img/06-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/07.jpg" data-lightbox="my-gallery"><img src="img/07-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/09.jpg" data-lightbox="my-gallery"><img src="img/09-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/10.jpg" data-lightbox="my-gallery"><img src="img/10-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/11.jpg" data-lightbox="my-gallery"><img src="img/11-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/12.jpg" data-lightbox="my-gallery"><img src="img/12-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/13.jpg" data-lightbox="my-gallery"><img src="img/13-s72x72.jpg" alt="img-1" class="small-img"></a>
+             <a href="img/14.jpg" data-lightbox="my-gallery"><img src="img/14-s72x72.jpg" alt="img-1" class="small-img"></a>
+            </div>       
          </section>
          
          <section id="references">
          <div class="sixth"><h2 class="intro">Referenciák</h2></div>
-         
+         <div class="references-img">
+                <a href="https://www.bericap.com/" target="_blank"><img src="img/Bericap_logo_svg.jpg" alt="Bericap"></a>
+                <a href="http://csiclosures.com/" target="_blank"><img src="img/csiFlatHoriz_4c_transp.jpg" alt="CSI"></a>
+                <a href="https://www.bernstein.eu/en/" target="_blank"><img src="img/bernstein.jpg" alt="Bernstein"></a>
+                <a href="http://macher.hu/" target="_blank"><img src="img/macher.jpg" alt="Macher"></a>
+                <a href="https://www.simonceg.hu/" target="_blank"><img src="img/simonlogo.jpg" alt="Simon"></a>
+         </div>
          </section>
          
          <section id="contact">
@@ -207,7 +134,7 @@
                  </table></div>         
          </section>
          <footer class="foot">
-         <img src="" alt="atm-logo">
+         <!--<img src="img/logo_feher.png" alt="atm-logo">-->
              <p>&#169; 2018
              <br>
                  Minden jog fenntartva
@@ -216,7 +143,8 @@
          </footer>
      </main>
     
-    
+     <script src="/js/main.js"></script>
+     <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 
